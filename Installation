@@ -1,0 +1,32 @@
+
+https://phoenixnap.com/kb/how-to-install-nmap-ubuntu-18-04
+
+Prerequisites
+
+Access to a terminal
+The apt package manager
+A user with sudo privileges
+Step 1: Update Ubuntu Package List
+Make sure the software packages on your Ubuntu system are up-to-date with the command:
+
+sudo apt-get update
+
+The system updates your package lists and confirms that the action is complete.
+
+updating the ubuntu repository using apt-get update
+Step 2: Install Nmap
+To install NMAP on Ubuntu, run the command:
+
+sudo apt-get install nmap
+
+The system prompts you to confirm and continue by typing y and pressing Enter.
+
+example of installing nmap on Ubuntu command
+After confirming, the installation runs its course.
+
+Step 3: Verify Nmap Version Installed
+To verify the installation was successful and to determine the current version of Nmap:
+
+nmap --version
+
+The output provides detailed information about Nmap. In this example, the version installed on Ubuntu is 7.60.
